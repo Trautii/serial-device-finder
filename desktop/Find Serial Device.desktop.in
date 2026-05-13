@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Find Serial Device
+Comment=Detect a newly plugged USB serial device and copy its path
+Exec=@EXEC@
+Icon=utilities-terminal
+Terminal=@TERMINAL@
+Categories=Utility;
+StartupNotify=false
