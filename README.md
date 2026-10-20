@@ -9,24 +9,12 @@ visible so you can paste it into PuTTY.
 
 ## Install
 
-Clone your private repo, then run:
+Clone the repo, then run:
 
 ```bash
 cd serial-device-finder
 chmod +x install.sh uninstall.sh
 ./install.sh
-```
-
-To publish this folder to a new private GitHub repo:
-
-```bash
-cd serial-device-finder
-git init
-git add .
-git commit -m "Initial serial device finder"
-git branch -M main
-git remote add origin git@github.com:YOUR_USER/YOUR_PRIVATE_REPO.git
-git push -u origin main
 ```
 
 The installer creates:
